@@ -81,5 +81,3 @@ var timer = setInterval(() => {
     $(".countdown").detach();
   }
 }, 50);
-
-

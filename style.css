@@ -210,6 +210,7 @@ img:hover{
   .containerGift.complete .congrates {
     animation: show-congrates 1s 3.5s;
     animation-fill-mode: forwards;
+    align-items: center;
   }
   
 
