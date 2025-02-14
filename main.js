@@ -81,3 +81,10 @@ var timer = setInterval(() => {
     $(".countdown").detach();
   }
 }, 50);
+
+document.addEventListener("click", function() {
+  let audio = document.getElementById("miAudio");
+  if (audio.paused) {
+      audio.play(); // 🔊 Inicia el audio después del primer clic
+  }
+});
