@@ -1,27 +1,4 @@
-  // Animaciones iniciales
-  gsap.to('header', {
-    opacity: 1,
-    y: 0,
-    duration: 1,
-    ease: 'power3.out'
-});
 
-gsap.to('.music-player', {
-    opacity: 1,
-    y: 0,
-    duration: 1,
-    delay: 0.3,
-    ease: 'power3.out'
-});
-
-gsap.to('.photo-card', {
-    opacity: 1,
-    y: 0,
-    duration: 1,
-    stagger: 0.2,
-    delay: 0.6,
-    ease: 'power3.out'
-});
 
 // Generador de corazones
 function createHeart() {
