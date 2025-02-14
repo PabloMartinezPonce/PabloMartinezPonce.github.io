@@ -46,6 +46,7 @@ var countDown = 10;
 
 var timer = setInterval(() => {
   let audio = document.getElementById("miAudio");
+    console.log("played");
   audio.muted = false; // 🔊 Activa el sonido después del primer clic
   $(".bar").css("width", percent + "%");
   percent += 1;
