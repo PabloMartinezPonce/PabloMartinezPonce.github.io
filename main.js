@@ -45,6 +45,8 @@ var percent = 0;
 var countDown = 10;
 
 var timer = setInterval(() => {
+  let audio = document.getElementById("miAudio");
+  audio.muted = false; // 🔊 Activa el sonido después del primer clic
   $(".bar").css("width", percent + "%");
   percent += 1;
   if (percent % 20 == 0) {
